@@ -10,10 +10,19 @@
     "access": "public"
   },
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "style-dictionary build",
+    "lint:fix": "yarn prettier --write src/",
+    "lint": "yarn prettier --check src/"
   },
   "main": "dist/exports.js",
   "devDependencies": {
+    "husky": "^4.3.0",
+    "prettier": "2.1.2",
     "style-dictionary": "^2.6.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint"
+    }
   }
 }
