@@ -16,8 +16,11 @@
   },
   "main": "dist/exports.js",
   "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/release-notes-generator": "^9.0.1",
     "husky": "^4.3.0",
     "prettier": "2.1.2",
+    "semantic-release": "^17.2.1",
     "style-dictionary": "^2.6.2"
   },
   "husky": {
