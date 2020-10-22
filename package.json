@@ -2,7 +2,7 @@
   "name": "@nulogy/tokens",
   "version": "4.9.1",
   "description": "Design tokens for the Nulogy Design System - http://nulogy.design",
-  "repository": "https://github.com/nulogy/design-system.git",
+  "repository": "https://github.com/nulogy/nds-tokens.git",
   "author": "Nulogy <info@nulogy.com> (https://github.com/nulogy)",
   "license": "MIT",
   "private": false,
