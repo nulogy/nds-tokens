@@ -1,3 +1,10 @@
+## [4.10.2](https://github.com/nulogy/nds-tokens/compare/v4.10.1...v4.10.2) (2020-10-22)
+
+
+### Bug Fixes
+
+* for release tests ([6eba41f](https://github.com/nulogy/nds-tokens/commit/6eba41fdf7940d9f2626691fc67a4c23d71d342e))
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
