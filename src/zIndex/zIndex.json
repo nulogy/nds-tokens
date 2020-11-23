@@ -1,5 +1,8 @@
 {
   "zIndex": {
+    "tableHeader": {
+      "value": 10
+    },
     "content": {
       "value": 100
     },
