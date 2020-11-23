@@ -1,5 +1,8 @@
 {
   "zIndex": {
+    "modalHeaderAndFooter": {
+      "value": 2
+    },
     "tableHeader": {
       "value": 10
     },
@@ -14,6 +17,9 @@
     },
     "overlay": {
       "value": 1000
+    },
+    "openControl": {
+      "value": "{zIndex.overlay.value}"
     }
   }
 }
