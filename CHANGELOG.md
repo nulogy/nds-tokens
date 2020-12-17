@@ -1,3 +1,10 @@
+# [4.11.0](https://github.com/nulogy/nds-tokens/compare/v4.10.2...v4.11.0) (2020-11-23)
+
+
+### Features
+
+* adds a zIndex for table headers ([1d51232](https://github.com/nulogy/nds-tokens/commit/1d512325b4cf5e2ae3a37a4a0722691175e8369f))
+
 ## [4.10.2](https://github.com/nulogy/nds-tokens/compare/v4.10.1...v4.10.2) (2020-10-22)
 
 
