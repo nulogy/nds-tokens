@@ -1,3 +1,10 @@
+# [4.12.0](https://github.com/nulogy/nds-tokens/compare/v4.11.0...v4.12.0) (2020-12-17)
+
+
+### Features
+
+* adds a zIndex for modal headers and open controls ([69f33ff](https://github.com/nulogy/nds-tokens/commit/69f33ff1c8ad86dfbba7de344cb4c80d98859ac4))
+
 # [4.11.0](https://github.com/nulogy/nds-tokens/compare/v4.10.2...v4.11.0) (2020-11-23)
 
 
