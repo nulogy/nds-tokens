@@ -1,5 +1,8 @@
 {
   "zIndex": {
+    "modalHeaderAndFooter": {
+      "value": 2
+    },
     "tableHeader": {
       "value": 10
     },
