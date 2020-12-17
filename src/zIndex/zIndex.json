@@ -17,6 +17,9 @@
     },
     "overlay": {
       "value": 1000
+    },
+    "openControl": {
+      "value": "{zIndex.overlay.value}"
     }
   }
 }
