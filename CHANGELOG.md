@@ -1,3 +1,10 @@
+## [4.13.1](https://github.com/nulogy/nds-tokens/compare/v4.13.0...v4.13.1) (2021-01-08)
+
+
+### Bug Fixes
+
+* add zIndices so that zIndex styled props work ([6772986](https://github.com/nulogy/nds-tokens/commit/6772986c3ce25229de91a9c5b2000562d8810f3b))
+
 # [4.13.0](https://github.com/nulogy/nds-tokens/compare/v4.12.0...v4.13.0) (2021-01-08)
 
 
