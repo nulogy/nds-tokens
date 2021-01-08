@@ -1,0 +1,28 @@
+{
+  "zIndices": {
+    "modalHeaderAndFooter": {
+      "value": 2
+    },
+    "tableHeader": {
+      "value": 10
+    },
+    "content": {
+      "value": 100
+    },
+    "tabsScrollIndicator": {
+      "value": 200
+    },
+    "tabsBar": {
+      "value": 210
+    },
+    "overlay": {
+      "value": 1000
+    },
+    "openControl": {
+      "value": "{zIndices.overlay.value}"
+    },
+    "sideBar": {
+      "value": 999
+    }
+  }
+}
