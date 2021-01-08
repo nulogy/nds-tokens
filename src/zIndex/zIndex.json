@@ -20,6 +20,9 @@
     },
     "openControl": {
       "value": "{zIndex.overlay.value}"
+    },
+    "sideBar": {
+      "value": 999
     }
   }
 }
