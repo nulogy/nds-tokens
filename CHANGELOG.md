@@ -1,3 +1,10 @@
+# [4.13.0](https://github.com/nulogy/nds-tokens/compare/v4.12.0...v4.13.0) (2021-01-08)
+
+
+### Features
+
+* add sideBar z-index ([0ad9030](https://github.com/nulogy/nds-tokens/commit/0ad90306d8610644c0455454e790e9bc3d94bc31))
+
 # [4.12.0](https://github.com/nulogy/nds-tokens/compare/v4.11.0...v4.12.0) (2020-12-17)
 
 
