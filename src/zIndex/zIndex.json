@@ -15,14 +15,17 @@
     "tabsBar": {
       "value": 210
     },
+    "sideBar": {
+      "value": 800
+    },
+    "navBar": {
+      "value": 900
+    },
     "overlay": {
       "value": 1000
     },
     "openControl": {
       "value": "{zIndex.overlay.value}"
-    },
-    "sideBar": {
-      "value": 999
     }
   }
 }
