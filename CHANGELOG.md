@@ -1,3 +1,10 @@
+# [4.14.0](https://github.com/nulogy/nds-tokens/compare/v4.13.1...v4.14.0) (2021-01-08)
+
+
+### Features
+
+* add navBar z-index token ([83b85d4](https://github.com/nulogy/nds-tokens/commit/83b85d48ac37f93d34c361872375b30633a814ec))
+
 ## [4.13.1](https://github.com/nulogy/nds-tokens/compare/v4.13.0...v4.13.1) (2021-01-08)
 
 
