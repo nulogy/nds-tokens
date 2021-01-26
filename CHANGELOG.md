@@ -1,3 +1,10 @@
+## [4.14.1](https://github.com/nulogy/nds-tokens/compare/v4.14.0...v4.14.1) (2021-01-26)
+
+
+### Bug Fixes
+
+* sidebar casing ([2b0b431](https://github.com/nulogy/nds-tokens/commit/2b0b431c3b628d2d7a3352e9211b7385cabc5943))
+
 # [4.14.0](https://github.com/nulogy/nds-tokens/compare/v4.13.1...v4.14.0) (2021-01-08)
 
 
