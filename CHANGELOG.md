@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/nulogy/nds-tokens/compare/v4.14.1...v5.0.0) (2021-04-16)
+
+
+### Bug Fixes
+
+* removes` zIndex` object, it is replaced with `zIndices` ([#25](https://github.com/nulogy/nds-tokens/issues/25)) ([eeb9336](https://github.com/nulogy/nds-tokens/commit/eeb93367c3350136957edb60cec4d357915a7bd6))
+
+
+### BREAKING CHANGES
+
+* the zIndex object in the theme has been replaced with zIndices. Please replace references to theme.zIndex to theme.zIndices
+
 ## [4.14.1](https://github.com/nulogy/nds-tokens/compare/v4.14.0...v4.14.1) (2021-01-26)
 
 
