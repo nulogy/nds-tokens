@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/nulogy/nds-tokens/compare/v5.0.0...v5.1.0) (2021-11-10)
+
+
+### Features
+
+* add midGrey colour ([#46](https://github.com/nulogy/nds-tokens/issues/46)) ([2c4585b](https://github.com/nulogy/nds-tokens/commit/2c4585bd3968892a598635891ff3f07ea573d54a))
+
 # [5.0.0](https://github.com/nulogy/nds-tokens/compare/v4.14.1...v5.0.0) (2021-04-16)
 
 
