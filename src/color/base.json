@@ -7,6 +7,7 @@
       "blue": { "value": "#216BEB" },
       "lightBlue": { "value": "#E1EBFA" },
       "darkGrey": { "value": "#434D59" },
+      "midGrey": { "value": "#6C7784" },
       "grey": { "value": "#C0C8D1" },
       "lightGrey": { "value": "#E4E7EB" },
       "whiteGrey": { "value": "F0F2F5" },
