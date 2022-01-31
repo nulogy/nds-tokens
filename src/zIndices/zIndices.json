@@ -24,6 +24,9 @@
     "overlay": {
       "value": 1000
     },
+    "aboveOverlay": {
+      "value": 1010
+    },
     "openControl": {
       "value": "{zIndices.overlay.value}"
     }
