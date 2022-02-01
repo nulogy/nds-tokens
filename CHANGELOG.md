@@ -1,3 +1,10 @@
+# [5.2.0](https://github.com/nulogy/nds-tokens/compare/v5.1.0...v5.2.0) (2022-02-01)
+
+
+### Features
+
+* add new z-index ([#47](https://github.com/nulogy/nds-tokens/issues/47)) ([45c6936](https://github.com/nulogy/nds-tokens/commit/45c6936512fd5550a14a1e82d8097c94f353aed8))
+
 # [5.1.0](https://github.com/nulogy/nds-tokens/compare/v5.0.0...v5.1.0) (2021-11-10)
 
 
