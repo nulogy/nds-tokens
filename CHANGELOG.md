@@ -1,3 +1,10 @@
+# [5.3.0](https://github.com/nulogy/nds-tokens/compare/v5.2.0...v5.3.0) (2022-06-06)
+
+
+### Features
+
+* update box shadows ([#49](https://github.com/nulogy/nds-tokens/issues/49)) ([88707c5](https://github.com/nulogy/nds-tokens/commit/88707c5337ed4fee03753bdd6b7173248b4a2a02))
+
 # [5.2.0](https://github.com/nulogy/nds-tokens/compare/v5.1.0...v5.2.0) (2022-02-01)
 
 
