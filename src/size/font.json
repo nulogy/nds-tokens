@@ -6,7 +6,7 @@
       "medium": { "value": "16" },
       "large": { "value": "24" },
       "larger": { "value": "30" },
-      "largest": { "value": "38" },
+      "largest": { "value": "32" },
       "base": { "value": "{size.font.medium.value}" },
       "heading1": { "value": "{size.font.largest.value}" },
       "heading2": { "value": "{size.font.larger.value}" },
