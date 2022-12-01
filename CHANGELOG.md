@@ -1,3 +1,10 @@
+# [5.4.0](https://github.com/nulogy/nds-tokens/compare/v5.3.0...v5.4.0) (2022-12-01)
+
+
+### Features
+
+* change the size and height of heading1 ([#53](https://github.com/nulogy/nds-tokens/issues/53)) ([a9feb96](https://github.com/nulogy/nds-tokens/commit/a9feb96a4c3b44e5d9732891ecaf679bfcc13085))
+
 # [5.3.0](https://github.com/nulogy/nds-tokens/compare/v5.2.0...v5.3.0) (2022-06-06)
 
 
