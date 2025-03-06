@@ -12,7 +12,7 @@
 
 ## 📦 Installation
 
-**⚠️ Note** that this package is primarily designed to be used by [@nulogy/components](https://github.com/nulogy/design-system/tree/master/components) and [@nulogy/css](https://github.com/nulogy/design-system/tree/master/css). You probably shouldn't be pulling this into an application, unless you need access to raw sass, css, or javascript values for some reason.
+**⚠️ Note** that this package is primarily designed to be used by [@nulogy/components](https://github.com/nulogy/design-system/tree/master/components) and [@nulogy/css](https://github.com/nulogy/design-system/tree/master/css). You probably shouldn't be pulling this into an application, unless you need access to raw scss, css, or javascript values for some reason.
 
 `yarn add @nulogy/tokens`
 
@@ -20,10 +20,10 @@
 
 After installing, you'll have access to three variable files:
 
-- `_variables.scss` for sass variables, used by @nulogy/css
-- `_exports.js` for javascript constants, used by @nulogy/components and converted into [theme](https://nulogy.design/theme) file
-- `variables.css` for access to css variables
+- `nds_tokens.js` for javascript constants, used by @nulogy/components and converted into [theme](https://nulogy.design/theme) file
+- `nds_tokens.css` for access to css variables
+- `nds_tokens.d.ts` for TypeScript declarations
 
 ## 💬 Questions
 
-- [#design-system](slack://channel?team=T024N2KKA&id=CBAFQ4X7X)
+- [#support-design-system](slack://channel?team=T024N2KKA&id=CBAFQ4X7X)

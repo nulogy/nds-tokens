@@ -10,26 +10,38 @@
     "access": "public"
   },
   "scripts": {
-    "build": "style-dictionary build",
-    "lint:fix": "yarn prettier --write src/",
-    "lint": "yarn prettier --check src/"
+    "build": "tsx src/build/main.ts",
+    "clean": "rimraf dist",
+    "prebuild": "yarn clean",
+    "test": "vitest --run",
+    "postbuild": "./scripts/postbuild.sh",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write ."
   },
-  "main": "dist/exports.js",
+  "main": "dist/nds_tokens.js",
   "devDependencies": {
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/commit-analyzer": "^8.0.1",
-    "@semantic-release/git": "^9.0.0",
-    "@semantic-release/github": "^7.1.1",
-    "@semantic-release/npm": "^7.0.6",
-    "@semantic-release/release-notes-generator": "^9.0.1",
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^9.0.0",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "@types/lodash": "^4.17.16",
+    "@types/node": "^18.0.0",
+    "dts-bundle-generator": "^9.5.1",
     "husky": "^4.3.0",
-    "prettier": "2.1.2",
+    "lodash": "^4.17.21",
+    "prettier": "3.5.3",
+    "rimraf": "^3.0.2",
     "semantic-release": "^17.2.1",
-    "style-dictionary": "^2.6.2"
+    "tsx": "^4.19.3",
+    "typescript": "^4.9.5",
+    "vitest": "^3.0.8"
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn lint"
+      "pre-push": "yarn format:check"
     }
-  }
+  },
+  "dependencies": {}
 }
