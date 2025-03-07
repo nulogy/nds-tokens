@@ -1,3 +1,33 @@
+# [6.0.0](https://github.com/nulogy/nds-tokens/compare/v5.4.0...v6.0.0) (2025-03-07)
+
+
+### Features
+
+* generate tokens using base units per device ([#60](https://github.com/nulogy/nds-tokens/issues/60)) ([608e793](https://github.com/nulogy/nds-tokens/commit/608e793027bfe2527b4ad794b84eb0778b23ed8f))
+
+
+### BREAKING CHANGES
+
+* this change overhauls the tokens package and changes
+the way the tokens are generated, as well as the final output of both
+the JavaScript constants and the CSS variables.
+
+* CSS variables now use this format:
+```
+      nds-tablet-border-radius-medium
+      \_/ \____/ \___________/ \____/
+       |    |         |          |
+  Prefix  Device    Token       Type
+```
+
+* JavaScript constants use this format:
+```
+    tablet_border_radius_large
+    \____/ \___________/ \___/
+      |          |         |
+    Device     Token      Type
+```
+
 # [5.4.0](https://github.com/nulogy/nds-tokens/compare/v5.3.0...v5.4.0) (2022-12-01)
 
 
