@@ -1,13 +1,13 @@
-import { fmt } from '../../utils'
+import { fmt, px } from '../../utils'
 
 export type StandardFontSize = 'smaller' | 'small' | 'medium' | 'large' | 'larger' | 'largest'
 
 export const standardFontSize = (baseUnit: number) =>
   ({
-    smaller: fmt(baseUnit * 3),
-    small: fmt(baseUnit * 3.75),
-    medium: fmt(baseUnit * 3.75),
-    large: fmt(baseUnit * 5.25),
-    larger: fmt(baseUnit * 6),
-    largest: fmt(baseUnit * 7.5),
+    smaller: px(fmt(baseUnit * 3)),
+    small: px(fmt(baseUnit * 3.75)),
+    medium: px(fmt(baseUnit * 3.75)),
+    large: px(fmt(baseUnit * 5.25)),
+    larger: px(fmt(baseUnit * 6)),
+    largest: px(fmt(baseUnit * 7.5)),
   }) satisfies Record<StandardFontSize, string>
