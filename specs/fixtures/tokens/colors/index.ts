@@ -5,5 +5,6 @@ export default function () {
     nested: {
       tertiary: '#ff00ff',
     },
+    camelCaseProperty: '#ff00ff',
   }
 }
