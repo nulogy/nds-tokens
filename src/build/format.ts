@@ -1,4 +1,4 @@
-import { capitalize, kebabCase, startCase, isPlainObject, upperCase, toUpper } from 'lodash'
+import { capitalize, kebabCase, startCase, isPlainObject, toUpper, snakeCase } from 'lodash'
 import { Device, TokenValue } from './constants'
 
 export interface FormattedTokens {
@@ -53,11 +53,13 @@ export function formatTokens(
       cssVars.push(...nestedFormats.cssVars)
       jsExports.push(...nestedFormats.jsExports)
     } else {
-      const cssVarName = `--nds-${device}-${kebabCase(folderName)}-${currentPath.join('-')}`
-      const jsVarName = toUpper(`${device}_${folderName}_${currentPath.join('_')}`)
+      const cssVarName = `--${kebabCase(`nds-${device}-${folderName}-${currentPath.join('-')}`)}`
+      const jsVarName = toUpper(snakeCase(`${device}_${folderName}_${currentPath.join('_')}`))
+
+      const quote = typeof value === 'number' ? '' : '"'
 
       cssVars.push(`${cssVarName}: ${value};`)
-      jsExports.push(`export const ${jsVarName} = "${value}";`)
+      jsExports.push(`export const ${jsVarName} = ${quote}${value}${quote};`)
     }
   })
 
