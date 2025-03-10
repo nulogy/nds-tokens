@@ -10,28 +10,31 @@
 | Colors
 |-----------------------------------------------------------------------------
 */
---nds-tablet-colors-primary: #ffffff;
+--nds-desktop-colors-primary: #ffffff;
+  --nds-desktop-colors-secondary: #000000;
+  --nds-desktop-colors-nested-tertiary: #ff00ff;
+  --nds-desktop-colors-camel-case-property: #ff00ff;
+  --nds-tablet-colors-primary: #ffffff;
   --nds-tablet-colors-secondary: #000000;
   --nds-tablet-colors-nested-tertiary: #ff00ff;
+  --nds-tablet-colors-camel-case-property: #ff00ff;
   --nds-phone-colors-primary: #ffffff;
   --nds-phone-colors-secondary: #000000;
   --nds-phone-colors-nested-tertiary: #ff00ff;
-  --nds-desktop-colors-primary: #ffffff;
-  --nds-desktop-colors-secondary: #000000;
-  --nds-desktop-colors-nested-tertiary: #ff00ff;
+  --nds-phone-colors-camel-case-property: #ff00ff;
 
 /*
 |-----------------------------------------------------------------------------
 | Spacing
 |-----------------------------------------------------------------------------
 */
---nds-tablet-spacing-small: 5.6;
-  --nds-tablet-spacing-medium: 11.2;
-  --nds-tablet-spacing-large: 16.8;
-  --nds-phone-spacing-small: 3.6;
-  --nds-phone-spacing-medium: 7.2;
-  --nds-phone-spacing-large: 10.8;
-  --nds-desktop-spacing-small: 4;
-  --nds-desktop-spacing-medium: 8;
-  --nds-desktop-spacing-large: 12;
+--nds-desktop-spacing-small: 4px;
+  --nds-desktop-spacing-medium: 8px;
+  --nds-desktop-spacing-large: 12px;
+  --nds-tablet-spacing-small: 5.6px;
+  --nds-tablet-spacing-medium: 11.2px;
+  --nds-tablet-spacing-large: 16.799999999999997px;
+  --nds-phone-spacing-small: 3.6px;
+  --nds-phone-spacing-medium: 7.2px;
+  --nds-phone-spacing-large: 10.8px;
 }

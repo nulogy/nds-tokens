@@ -1,9 +1,7 @@
-import { fmt } from '../../../../src/utils'
-
 export default function (baseUnit: number) {
   return {
-    small: fmt(baseUnit * 1),
-    medium: fmt(baseUnit * 2),
-    large: fmt(baseUnit * 3),
+    small: baseUnit * 1 + 'px',
+    medium: baseUnit * 2 + 'px',
+    large: baseUnit * 3 + 'px',
   }
 }
