@@ -1,3 +1,19 @@
+# [6.1.0](https://github.com/nulogy/nds-tokens/compare/v6.0.0...v6.1.0) (2025-03-10)
+
+
+### Bug Fixes
+
+* Add units to font-size values ([6dbc8ef](https://github.com/nulogy/nds-tokens/commit/6dbc8efaf6e04791d1b2b0af5605f5d6ed2f771b))
+* properly format camelCaseValues ([e2e9dd0](https://github.com/nulogy/nds-tokens/commit/e2e9dd0f1ed4f2f209b345ec6166c5bbac3767a7))
+
+
+### Features
+
+* add breakpoints tokens ([586392f](https://github.com/nulogy/nds-tokens/commit/586392f1d1b0641b220c527707284e58d732c023))
+* add font-weight tokens ([a8ec096](https://github.com/nulogy/nds-tokens/commit/a8ec0968ea1457968c69f48d23e064fe8716b55d))
+* Add shadow tokens ([10f0a47](https://github.com/nulogy/nds-tokens/commit/10f0a477a8ad7c0b1d2f7da7e3b0097d5095caee))
+* Add z-index tokens ([e4b908a](https://github.com/nulogy/nds-tokens/commit/e4b908a23078f9eb5921a79a952b29fef3ee6996))
+
 # [6.0.0](https://github.com/nulogy/nds-tokens/compare/v5.4.0...v6.0.0) (2025-03-07)
 
 
