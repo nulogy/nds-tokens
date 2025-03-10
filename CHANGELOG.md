@@ -1,3 +1,10 @@
+## [6.1.1](https://github.com/nulogy/nds-tokens/compare/v6.1.0...v6.1.1) (2025-03-10)
+
+
+### Bug Fixes
+
+* change bold font weight value ([59a51e3](https://github.com/nulogy/nds-tokens/commit/59a51e304182ebe77dee22e14aac00dec48ad1e2))
+
 # [6.1.0](https://github.com/nulogy/nds-tokens/compare/v6.0.0...v6.1.0) (2025-03-10)
 
 
