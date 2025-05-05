@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest'
 import { px, pct, fmt, n } from '../src/utils'
-import fontFamily from '../src/tokens/font-family'
 
 describe('Utils functions', () => {
   it('should format pixels correctly', () => {
