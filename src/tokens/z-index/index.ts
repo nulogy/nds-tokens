@@ -12,14 +12,14 @@ type ZIndex =
 
 export default () =>
   ({
+    modalHeaderAndFooter: 2,
+    tableHeader: 10,
     content: 100,
     tabsScrollIndicator: 200,
     tabsBar: 210,
-    overlay: 1000,
-    aboveOverlay: 1010,
-    tableHeader: 10,
-    modalHeaderAndFooter: 2,
-    openControl: 1000,
     navBar: 900,
     sidebar: 800,
+    overlay: 1000,
+    openControl: 1000,
+    aboveOverlay: 1010,
   }) satisfies Record<ZIndex, number>
