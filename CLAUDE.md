@@ -16,6 +16,7 @@ pnpm format:fix     # Auto-fix formatting
 ```
 
 Run a single test file:
+
 ```bash
 pnpm vitest run specs/format.spec.ts
 ```
@@ -45,6 +46,7 @@ dist/                            ← published to npm
 Tokens are device-aware. Three devices exist (`desktop`, `tablet`, `phone`) each with a different `baseUnit` multiplier (`4`, `5.6`, `3.6`). Each token category's `index.ts` exports a default function `(baseUnit: number) => ({...})`.
 
 Output naming:
+
 - **CSS:** `--nds-{device}-{folderName}-{nestedPath}` (kebab-case, in `:root {}`)
 - **JS/TS:** `{DEVICE}_{FOLDERNAME}_{NESTEDPATH}` (SCREAMING_SNAKE_CASE)
 
@@ -54,8 +56,8 @@ Output naming:
 // src/tokens/my-category/index.ts
 export default (baseUnit: number) => ({
   myCategory: {
-    small: px(baseUnit * 1),   // → --nds-desktop-my-category-small: 4px
-    large: px(baseUnit * 4),   // → NDS_DESKTOP_MY_CATEGORY_LARGE = "16px"
+    small: px(baseUnit * 1), // → --nds-desktop-my-category-small: 4px
+    large: px(baseUnit * 4), // → NDS_DESKTOP_MY_CATEGORY_LARGE = "16px"
   },
 })
 ```
