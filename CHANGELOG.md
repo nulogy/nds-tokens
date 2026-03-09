@@ -1,3 +1,15 @@
+# [6.2.0](https://github.com/nulogy/nds-tokens/compare/v6.1.1...v6.2.0) (2026-03-09)
+
+### Bug Fixes
+
+- Fix old snapshots ([d1c4a71](https://github.com/nulogy/nds-tokens/commit/d1c4a71df7c9d4d86f57a39af313c331ec12ef4f))
+- Release process works again ([f5d7c5d](https://github.com/nulogy/nds-tokens/commit/f5d7c5da07813ed2a808f1ddac625856acd93746))
+- Update Prettier ([decddb7](https://github.com/nulogy/nds-tokens/commit/decddb736ff182a55cb2b2d061ebd71dfdc35ad4))
+
+### Features
+
+- add IBM Plex Sans JP font family token ([8ed1d1c](https://github.com/nulogy/nds-tokens/commit/8ed1d1c0298ab57c78862a6fba7543187d29b774))
+
 ## [6.1.1](https://github.com/nulogy/nds-tokens/compare/v6.1.0...v6.1.1) (2025-03-10)
 
 ### Bug Fixes
