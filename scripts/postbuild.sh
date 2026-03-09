@@ -11,6 +11,6 @@ mv ./output/nds_tokens.css dist/nds_tokens.css
 pnpm prettier --write --ignore-path=.prettierignore dist
 
 # Remove the output directory
-pnpm rimraf output
+rm -rf output
 
 echo "Postbuild completed successfully!" 
