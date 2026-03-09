@@ -12,7 +12,7 @@
   "scripts": {
     "build": "tsx src/build/main.ts",
     "clean": "rimraf dist",
-    "prebuild": "yarn clean",
+    "prebuild": "pnpm clean",
     "test": "vitest --run",
     "postbuild": "./scripts/postbuild.sh",
     "format:check": "prettier --check .",
