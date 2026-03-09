@@ -8,9 +8,9 @@ mv ./output/nds_tokens.js dist/nds_tokens.js
 mv ./output/nds_tokens.css dist/nds_tokens.css
 
 # Format the dist files with prettier
-yarn prettier --write --ignore-path=.prettierignore dist
+pnpm prettier --write --ignore-path=.prettierignore dist
 
 # Remove the output directory
-yarn rimraf output
+pnpm rimraf output
 
 echo "Postbuild completed successfully!" 

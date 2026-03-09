@@ -14,9 +14,9 @@
 
 This package is primarily consumed by other Nulogy Design System packages like `@nulogy/components` and `@nulogy/css`. Direct installation into applications is generally not required.
 
-However, if you need direct access, you can install it via yarn:
+However, if you need direct access, you can install it via pnpm:
 
-`yarn add @nulogy/tokens`
+`pnpm add @nulogy/tokens`
 
 ## ✨ Generated Files
 
@@ -31,12 +31,12 @@ The build process generates the following files in the `output/` directory (note
 
 Available commands:
 
-- `yarn build`: Cleans the `dist/` directory and generates token files (`.js`, `.css`, `.ts`) in the `output/` directory. It then runs the `postbuild` script.
-- `yarn clean`: Removes the `dist/` directory.
-- `yarn test`: Runs tests using `vitest`.
-- `yarn format:check`: Checks code formatting using `prettier`.
-- `yarn format:fix`: Automatically fixes code formatting issues using `prettier`.
-- `yarn postbuild`: Copies generated files from `output/` to `dist/` and generates TypeScript declaration files (`.d.ts`) in `dist/`.
+- `pnpm build`: Cleans the `dist/` directory and generates token files (`.js`, `.css`, `.ts`) in the `output/` directory. It then runs the `postbuild` script.
+- `pnpm clean`: Removes the `dist/` directory.
+- `pnpm test`: Runs tests using `vitest`.
+- `pnpm format:check`: Checks code formatting using `prettier`.
+- `pnpm format:fix`: Automatically fixes code formatting issues using `prettier`.
+- `pnpm postbuild`: Copies generated files from `output/` to `dist/` and generates TypeScript declaration files (`.d.ts`) in `dist/`.
 
 The core build logic resides in `src/build/`.
 
@@ -77,7 +77,7 @@ Tokens are defined in separate modules within the `src/tokens/` directory. Each 
     - **Keys** in the returned object (e.g., `primary`, `blue`, `neutral`, `100`) are joined to form the rest of the variable name.
     - The build script automatically prefixes names with the **device** (`desktop`, `tablet`, `phone`) and converts the final name to `SNAKE_CASE` for JS and `kebab-case` for CSS.
 
-4.  **Run Build:** After making changes, run `yarn build` to regenerate the token files in the `output/` directory.
+4.  **Run Build:** After making changes, run `pnpm build` to regenerate the token files in the `output/` directory.
 
 5.  **Verify Changes:** Check the generated files in `output/` or `dist/` (specifically `nds_tokens.css` and `nds_tokens.js`) to ensure the new or modified tokens appear correctly.
 
