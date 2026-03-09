@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "tsx src/build/main.ts",
-    "clean": "rimraf dist",
+    "clean": "rm -rf dist",
     "prebuild": "pnpm clean",
     "test": "vitest --run",
     "postbuild": "./scripts/postbuild.sh",
@@ -34,7 +34,6 @@
     "husky": "^9.0.0",
     "lodash": "^4.17.21",
     "prettier": "3.5.3",
-    "rimraf": "^3.0.2",
     "semantic-release": "^25.0.3",
     "tsx": "^4.19.3",
     "typescript": "^4.9.5",
