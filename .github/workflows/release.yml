@@ -1,29 +1,49 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+---
 name: Release
 on:
   push:
     branches:
-      - master
-      - next
-      - beta
+      - main
 jobs:
   release:
     name: Release
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
+    permissions:
+      # allow the release step to comment on
+      # issues, pull requests, and write to the repo
+      contents: write
+      issues: write
+      pull-requests: write
+      # Required for OIDC to let NPM registry know
+      # that this workflow is trusted
+      id-token: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
-          fetch-depth: 0
+          version: 10
+          run_install: false
+
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
-          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+          node-version-file: '.tool-versions'
+
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
+
       - name: Build
-        run: yarn build
-      - name: Release
+        run: pnpm build
+
+      - name: Semantic Release 🚀
+        # https://github.com/cycjimmy/semantic-release-action
+        uses: cycjimmy/semantic-release-action@v6
+        with:
+          branch: main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release

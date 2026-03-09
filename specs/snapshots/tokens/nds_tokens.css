@@ -1,4 +1,3 @@
-
 /* 
   Nulogy Design System Tokens
   THIS FILE IS AUTO-GENERATED. DO NOT EDIT MANUALLY. 
@@ -10,7 +9,7 @@
 | Colors
 |-----------------------------------------------------------------------------
 */
---nds-desktop-colors-primary: #ffffff;
+  --nds-desktop-colors-primary: #ffffff;
   --nds-desktop-colors-secondary: #000000;
   --nds-desktop-colors-nested-tertiary: #ff00ff;
   --nds-desktop-colors-camel-case-property: #ff00ff;
@@ -23,12 +22,12 @@
   --nds-phone-colors-nested-tertiary: #ff00ff;
   --nds-phone-colors-camel-case-property: #ff00ff;
 
-/*
+  /*
 |-----------------------------------------------------------------------------
 | Spacing
 |-----------------------------------------------------------------------------
 */
---nds-desktop-spacing-small: 4px;
+  --nds-desktop-spacing-small: 4px;
   --nds-desktop-spacing-medium: 8px;
   --nds-desktop-spacing-large: 12px;
   --nds-tablet-spacing-small: 5.6px;
