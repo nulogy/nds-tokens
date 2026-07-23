@@ -14,7 +14,21 @@
 
 This package is primarily consumed by other Nulogy Design System packages like `@nulogy/components` and `@nulogy/css`. Direct installation into applications is generally not required.
 
-However, if you need direct access, you can install it via pnpm:
+However, if you need direct access, it is published to [GitHub Packages](https://docs.github.com/en/packages) under the `@nulogy` scope. Point the scope at GitHub Packages in your `.npmrc`:
+
+```
+@nulogy:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${GITHUB_NPM_AUTH_TOKEN}
+```
+
+GitHub Packages requires authentication even for reads. No personal access token is needed — reuse your GitHub CLI login:
+
+```sh
+gh auth refresh -h github.com -s read:packages   # one-time
+export GITHUB_NPM_AUTH_TOKEN=$(gh auth token)     # add to your shell profile
+```
+
+Then install via pnpm:
 
 `pnpm add @nulogy/tokens`
 
